@@ -119,4 +119,5 @@ def main():
     user_choice = choose_your_game()
     select_game(user_choice)
 
-main()
+if __name__ == '__main__':
+    main()

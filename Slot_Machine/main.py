@@ -142,4 +142,5 @@ def main():
     else:
         print(f"You have lost ${original_bal - balance}")
     
-main()
+if __name__ == '__main__':
+    main()
